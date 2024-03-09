@@ -1,0 +1,42 @@
+ .homepage{
+    height: 400px;
+    width: 600px;
+    /* border : 2px dotted white; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px rgb(224, 224, 224);
+
+} 
+.homeItems{
+    cursor: pointer;
+}
+body{
+    background-image:url("./bg_01.jpg");
+    background-size: cover;
+    padding-top: 10rem;
+}
+#signUpItem{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 5px 2px 2px black;
+    color: white;
+    font-size: 5rem;
+    letter-spacing:0.5rem;
+}
+#loginItem{
+    /* border: 2px solid red; */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 2px black;
+    color: white;
+    font-size: 5rem;
+    letter-spacing:0.5rem;
+
+
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>LOGIN</h1>
+            <form action="" class="inputContainer">
+                <label for="email">Email : </label>
+                <br>
+                <input style="margin: 10px 0px;" type="text" id="email" name="userName"
+                    placeholder="enter  your user name">
+                <br>
+                <span id="email_error_displayer" style="color: red; display: none; font-size: 2rem;">Email Not
+                    Found</span>
+                <br>
+                <label for="password">Password : </label>
+                <br>
+                <input style="margin: 10px 0px;" type="text" id="password" name="userName"
+                    placeholder="create Password">
+                <br>
+                <span id="pass_verifier" style="color: red; display: none; font-size: 2rem;">Please Enter Correct Password</span>
+                <br>
+                <button id="submit">SUBMIT</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="./login.js"></script>
+</body>
+
+</html>

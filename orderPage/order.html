@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <div class="card">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+            <i class="checkmark">✓</i>
+        </div>
+        <h1>Success</h1>
+        <p>We received your purchase request;<br /> we'll be in touch shortly!</p>
+        <button class="continueShopping">continueShopping</button>
+    </div>
+
+    <script>
+        let btn = document.getElementsByClassName("continueShopping")[0];
+        btn.addEventListener("click", () => {
+            // alert("object");
+            location.href = "http://127.0.0.1:5500/dashboard/dashboard.html";
+        })
+    </script>
+</body>
+
+</html>

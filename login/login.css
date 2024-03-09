@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../home/login_01.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: max-content; */
+
+}
+
+.container{
+    height: 80vh;
+    width: 700px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.inputContainer{
+    padding: 50px;
+    border: 2px solid;
+    width: 550px;
+    /* border: 2px solid red; */
+    box-shadow: 3px 2px 9px  whitesmoke ;
+}
+label{
+    color: white;
+    font-size: 3rem;     
+}
+
+input{
+    border-radius: 0.5rem;
+    padding: 10px;
+    width: 400px;
+    font-size: 2rem;
+}
+#submit{
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    border: none;
+    padding: 0.5rem;
+    width: 30%;
+}

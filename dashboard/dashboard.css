@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: peachpuff;
+    margin-bottom: -6.5rem;
+}
+
+.logo img{
+height: auto;
+width: auto;
+height: 50px;
+max-width: 100px;
+padding: 0.2rem;
+
+}
+
+.navbarItems{
+    cursor: pointer;
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userFont{
+    background-color: none;
+}
+.cartLogo{
+    /* height: inherit; */
+    width: 90px;
+    font-size: 30px;
+    display: flex;
+}
+#cartItemsNumber{
+    font-size: xx-large;
+    cursor: pointer;
+    height: 2rem;
+    position: relative;
+    top: -1.5rem;
+    left: 3rem;
+}
+.userIcon{
+    width: 200px;
+    font-size: 30px;
+}
+
+/* sub navbar */
+.sub_nav{
+    background-color: cadetblue;
+    margin-top: 100px;
+}
+.sub_nav_wrapper{
+    height: fit-content;
+    width: 60%;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    cursor: pointer;
+}
+.sub_nav_wrapper span+h3{
+    text-align: center;
+}
+
+/* product list */
+.productContainerStyle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: white;
+    border: 1px solid red;
+
+}
+
+.itemContainerEle{
+    /* border: 1px solid green; */
+    /* flex: 0 0 20%; */
+    padding: 1rem;
+    width: 300px;
+    margin: 25px;
+    max-height: 350px;
+    overflow: auto;
+    text-align: center;
+    box-shadow:  3px -5px 5px black;
+}
+.priceEle{
+    /* border: 1px solid red; */
+    background-color: aqua;
+    margin: 0px;
+    text-align: center;
+
+ }
+.description{
+    /* border: 1px solid red; */
+    background-color: cadetblue;
+    text-align: center;
+}
+#desc_span{
+    /* border: 1px solid red; */
+ font-size: 2rem;
+ color: rgb(42, 80, 42);
+}
+.buttonEle{
+    /* border: 3px solid green; */
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    height: 3rem;
+    width: 10vw;
+    background-color: cadetblue;
+    color:white ;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+.img_wrapper{
+    /* border:2px solid green; */
+    cursor: pointer;
+    transition: transform .2s;
+}
+
